@@ -1,4 +1,3 @@
-# Variables
 SPECTROGRAM_DIR=Spectrogram
 PLOT_DIR=Plot
 MODEL_FILE=best_model.pth
