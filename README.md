@@ -24,7 +24,7 @@ The project follows a standard deep learning pipeline for audio classification:
     * Transforms audio into Mel spectrograms.
     * **GPU Usage:** Waveforms and Mel Spectrogram transform moved to GPU for accelerated feature extraction.
     Here's a visual representation of an audio file transformed into a Mel spectrogram, which is the input to our CNN model:
-    ![Example Mel Spectrogram](Music_Gener_Classification\spectrograms\jazz\jazz.00003.png)
+    ![Example Mel Spectrogram](https://github.com/ayush-kitnawat-2023160/Music_Gener_Classification/blob/f31dc2315c2e36cedb1ddf371536747cf3c6cad7/spectrograms/jazz/jazz.00083.png)
 
 2.  **Model Definition **
     * A custom 2D Convolutional Neural Network (CNN).
