@@ -3,94 +3,100 @@ Number of genres: 10
 Genre map: {'blues': 0, 'classical': 1, 'country': 2, 'disco': 3, 'hiphop': 4, 'jazz': 5, 'metal': 6, 'pop': 7, 'reggae': 8, 'rock': 9}
 All Mel spectrograms saved to 'Spectrogram' directory.
 Dataset created with sizes: Train=800, Val=100, Test=100
+Dataset created with sizes: Train=800, Val=100, Test=100
+Dataset created with sizes: Train=800, Val=100, Test=100
 Starting training on cuda for 20 epochs...
-Epoch 1/20 - Duration: 17.20s
-  Train Loss: 1.8377, Train Acc: 0.3350
-  Val Loss: 1.2715, Val Acc: 0.5900
-  --> Saved best model with Val Acc: 0.5900
-Epoch 2/20 - Duration: 16.56s
-  Train Loss: 1.2910, Train Acc: 0.5625
-  Val Loss: 1.1518, Val Acc: 0.5900
-Epoch 3/20 - Duration: 16.34s
-  Train Loss: 0.9930, Train Acc: 0.6775
-  Val Loss: 0.9235, Val Acc: 0.7000
-  --> Saved best model with Val Acc: 0.7000
+Epoch 1/20 - Duration: 17.41s
+  Train Loss: 1.8117, Train Acc: 0.3525
+  Val Loss: 1.3653, Val Acc: 0.5400
+  --> Saved best model with Val Acc: 0.5400
+Epoch 2/20 - Duration: 16.82s
+  Train Loss: 1.3539, Train Acc: 0.5262
+  Val Loss: 1.2409, Val Acc: 0.5400
+Epoch 3/20 - Duration: 16.61s
+  Train Loss: 1.0199, Train Acc: 0.6737
+  Val Loss: 1.0722, Val Acc: 0.6600
+  --> Saved best model with Val Acc: 0.6600
 Epoch 4/20 - Duration: 16.64s
-  Train Loss: 0.6441, Train Acc: 0.8213
-  Val Loss: 1.0165, Val Acc: 0.6200
-Epoch 5/20 - Duration: 16.11s
-  Train Loss: 0.3851, Train Acc: 0.9050
-  Val Loss: 1.1481, Val Acc: 0.6100
-Epoch 6/20 - Duration: 16.83s
-  Train Loss: 0.2434, Train Acc: 0.9563
-  Val Loss: 0.8437, Val Acc: 0.7300
-  --> Saved best model with Val Acc: 0.7300
-Epoch 7/20 - Duration: 16.42s
-  Train Loss: 0.1959, Train Acc: 0.9600
-  Val Loss: 1.1412, Val Acc: 0.6600
-Epoch 8/20 - Duration: 16.28s
-  Train Loss: 0.1314, Train Acc: 0.9700
-  Val Loss: 0.7134, Val Acc: 0.7600
-  --> Saved best model with Val Acc: 0.7600
-Epoch 9/20 - Duration: 16.55s
-  Train Loss: 0.1269, Train Acc: 0.9762
-  Val Loss: 1.1616, Val Acc: 0.6300
-Epoch 10/20 - Duration: 16.28s
-  Train Loss: 0.1405, Train Acc: 0.9625
-  Val Loss: 1.3580, Val Acc: 0.6200
-Epoch 11/20 - Duration: 16.60s
-  Train Loss: 0.1063, Train Acc: 0.9762
-  Val Loss: 1.1258, Val Acc: 0.6900
-Epoch 12/20 - Duration: 16.44s
-  Train Loss: 0.0855, Train Acc: 0.9812
-  Val Loss: 0.7201, Val Acc: 0.7900
-  --> Saved best model with Val Acc: 0.7900
-Epoch 13/20 - Duration: 16.67s
-  Train Loss: 0.0446, Train Acc: 0.9950
-  Val Loss: 0.7864, Val Acc: 0.7900
-Epoch 14/20 - Duration: 16.29s
-  Train Loss: 0.0572, Train Acc: 0.9875
-  Val Loss: 1.8725, Val Acc: 0.5500
-Epoch 15/20 - Duration: 16.58s
-  Train Loss: 0.0394, Train Acc: 0.9950
-  Val Loss: 1.0377, Val Acc: 0.7100
-Epoch 16/20 - Duration: 16.28s
-  Train Loss: 0.0286, Train Acc: 0.9962
-  Val Loss: 0.8981, Val Acc: 0.7500
-Epoch 17/20 - Duration: 16.35s
-  Train Loss: 0.0571, Train Acc: 0.9862
-  Val Loss: 0.8041, Val Acc: 0.7500
-Epoch 18/20 - Duration: 16.21s
-  Train Loss: 0.0449, Train Acc: 0.9900
-  Val Loss: 0.9184, Val Acc: 0.7200
-Epoch 19/20 - Duration: 16.19s
-  Train Loss: 0.0472, Train Acc: 0.9862
-  Val Loss: 1.2011, Val Acc: 0.6900
-Epoch 20/20 - Duration: 15.99s
-  Train Loss: 0.0589, Train Acc: 0.9875
-  Val Loss: 1.2000, Val Acc: 0.6800
+  Train Loss: 0.7331, Train Acc: 0.7812
+  Val Loss: 0.9370, Val Acc: 0.6900
+  --> Saved best model with Val Acc: 0.6900
+Epoch 5/20 - Duration: 16.57s
+  Train Loss: 0.4581, Train Acc: 0.8688
+  Val Loss: 1.0627, Val Acc: 0.6400
+Epoch 6/20 - Duration: 16.53s
+  Train Loss: 0.2399, Train Acc: 0.9513
+  Val Loss: 1.1242, Val Acc: 0.6300
+Epoch 7/20 - Duration: 16.64s
+  Train Loss: 0.1714, Train Acc: 0.9688
+  Val Loss: 0.9510, Val Acc: 0.7100
+  --> Saved best model with Val Acc: 0.7100
+Epoch 8/20 - Duration: 16.83s
+  Train Loss: 0.1251, Train Acc: 0.9762
+  Val Loss: 0.9682, Val Acc: 0.6800
+Epoch 9/20 - Duration: 16.58s
+  Train Loss: 0.1094, Train Acc: 0.9788
+  Val Loss: 1.5148, Val Acc: 0.5600
+Epoch 10/20 - Duration: 16.91s
+  Train Loss: 0.0934, Train Acc: 0.9775
+  Val Loss: 1.0528, Val Acc: 0.7100
+Epoch 11/20 - Duration: 17.10s
+  Train Loss: 0.0899, Train Acc: 0.9800
+  Val Loss: 1.5870, Val Acc: 0.5300
+Epoch 12/20 - Duration: 16.46s
+  Train Loss: 0.0715, Train Acc: 0.9862
+  Val Loss: 1.1036, Val Acc: 0.6600
+Epoch 13/20 - Duration: 16.88s
+  Train Loss: 0.0905, Train Acc: 0.9800
+  Val Loss: 1.9856, Val Acc: 0.5100
+Epoch 14/20 - Duration: 16.59s
+  Train Loss: 0.0579, Train Acc: 0.9912
+  Val Loss: 1.9765, Val Acc: 0.5400
+Epoch 15/20 - Duration: 16.70s
+  Train Loss: 0.0668, Train Acc: 0.9850
+  Val Loss: 1.1020, Val Acc: 0.7000
+Epoch 16/20 - Duration: 17.00s
+  Train Loss: 0.0437, Train Acc: 0.9912
+  Val Loss: 0.9262, Val Acc: 0.7400
+  --> Saved best model with Val Acc: 0.7400
+Epoch 17/20 - Duration: 16.64s
+  Train Loss: 0.0506, Train Acc: 0.9900
+  Val Loss: 0.9011, Val Acc: 0.7500
+  --> Saved best model with Val Acc: 0.7500
+Epoch 18/20 - Duration: 16.48s
+  Train Loss: 0.0342, Train Acc: 0.9938
+  Val Loss: 0.8859, Val Acc: 0.7800
+  --> Saved best model with Val Acc: 0.7800
+Epoch 19/20 - Duration: 16.67s
+  Train Loss: 0.0462, Train Acc: 0.9950
+  Val Loss: 0.9311, Val Acc: 0.7600
+Epoch 20/20 - Duration: 16.30s
+  Train Loss: 0.0427, Train Acc: 0.9912
+  Val Loss: 1.1529, Val Acc: 0.7100
 
 Training complete!
 
 Evaluating on Test Set...
 
-Test Loss: 0.7926, Test Accuracy: 0.7600
+Test Loss: 0.8818, Test Accuracy: 0.7600
 
 Classification Report:
               precision    recall  f1-score   support
 
-       blues       0.85      0.85      0.85        13
-   classical       0.62      1.00      0.76         8
-     country       0.80      0.40      0.53        10
-       disco       0.62      0.83      0.71         6
-      hiphop       1.00      0.82      0.90        11
-        jazz       0.92      0.69      0.79        16
-       metal       0.92      1.00      0.96        11
+       blues       0.73      0.85      0.79        13
+   classical       0.80      1.00      0.89         8
+     country       0.78      0.70      0.74        10
+       disco       0.56      0.83      0.67         6
+      hiphop       0.90      0.82      0.86        11
+        jazz       0.91      0.62      0.74        16
+       metal       0.91      0.91      0.91        11
          pop       0.89      0.73      0.80        11
-      reggae       0.73      0.80      0.76        10
-        rock       0.12      0.25      0.17         4
+      reggae       1.00      0.60      0.75        10
+        rock       0.20      0.50      0.29         4
 
     accuracy                           0.76       100
-   macro avg       0.75      0.74      0.72       100
-weighted avg       0.81      0.76      0.77       100
+   macro avg       0.77      0.76      0.74       100
+weighted avg       0.82      0.76      0.77       100
 
+Saved Loss curve to Plot/loss_curves.png
+Saved Accuracy curve to Plot/accuracy_curves.png
