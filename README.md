@@ -23,7 +23,7 @@ The project follows a standard deep learning pipeline for audio classification:
     * Normalizes, resamples, pads/ trims audio.
     * Transforms audio into Mel spectrograms.
     * **GPU Usage:** Waveforms and Mel Spectrogram transform moved to GPU for accelerated feature extraction.
-    Here's a visual representation of an audio file transformed into a Mel spectrogram, which is the input to our CNN model:Example Mel Spectrogram-->
+    Here's a visual representation of an audio file transformed into a Mel spectrogram, which is the input to our CNN model.
     ![Example Mel Spectrogram](https://github.com/ayush-kitnawat-2023160/Music_Gener_Classification/blob/f31dc2315c2e36cedb1ddf371536747cf3c6cad7/spectrograms/jazz/jazz.00083.png)
 
 2.  **Model Definition **
@@ -112,6 +112,10 @@ To run this project, follow these steps:
     ```bash
     python main.py
     ```
+    Or
+    ```bash
+    make clean run
+    ```
     The script will train the model, generate spectrograms in the `Spectrograms/` directory, save plots in `Plots/`, and log progress to `training_log.txt`.
 
 ### Model Performance
@@ -135,7 +139,7 @@ This indicates that the model can correctly classify approximately 76% of new, u
 
 **Detailed Classification Report (Test Set):**
 
-For a more granular view of the model's performance across individual genres, refer to the classification report below. This report includes precision, recall, and F1-score for each genre, highlighting where the model performs best and where there might be challenges (e.g., lower performance on 'rock' in this instance).
+This report includes precision, recall, and F1-score for each genre, highlighting where the model performs best and where there might be challenges.
 
 | Genre       | Precision | Recall | F1-Score | Support |
 | :---------- | :-------- | :----- | :------- | :------ |
@@ -164,8 +168,6 @@ For a more granular view of the model's performance across individual genres, re
 
 ### Future Enhancements
 
-* **Command Line Interface (CLI):** Implement `argparse` to allow users to specify parameters like data directory, number of epochs, batch size, learning rate, etc., directly from the command line.
-* **Hyperparameter Tuning:** Integrate a library like Optuna or Weights & Biases for systematic hyperparameter optimization.
 * **More Advanced Models:** Experiment with recurrent neural networks (RNNs/LSTMs) or attention mechanisms combined with CNNs for potentially better performance on sequential audio data.
 * **Data Augmentation:** Implement audio data augmentation techniques (e.g., time stretching, pitch shifting, adding noise) to increase the dataset size and improve model generalization.
 * **Deployment:** Create a simple web interface or API for real-time genre prediction.
