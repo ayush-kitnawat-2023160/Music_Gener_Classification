@@ -18,7 +18,7 @@ In this project, the GPU is used for:
 
 The project follows a standard deep learning pipeline for audio classification:
 
-1.  **Data Ingestion & Preprocessing **
+1.  **Data Preprocessing **
     * Loads `.au` audio files.
     * Normalizes, resamples, pads/ trims audio.
     * Transforms audio into Mel spectrograms.
