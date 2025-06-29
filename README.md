@@ -14,7 +14,7 @@ In this project, the GPU is used for:
 * **Accelerated Audio Preprocessing:** Operations like resampling audio and generating Mel spectrograms (which involve Fast Fourier Transforms and matrix operations) are performed directly on the GPU using `torchaudio` when the data is moved to the `cuda` device. This significantly speeds up the data loading and transformation pipeline.
 * **Faster Model Training:** The core of deep learning training involves forward and backward passes through the neural network. All the convolutional operations, matrix multiplications in the fully connected layers, and gradient calculations during backpropagation are executed on the GPU. This parallel processing capability of the GPU allows for training the model much faster than on a CPU, enabling experimentation with more complex models or larger datasets.
 
-## Code Architecture (Concise)
+## Code Architecture
 
 The project follows a standard deep learning pipeline for audio classification:
 
